@@ -82,3 +82,60 @@ main {
     float: left;
     position: relative;
 }
+button.slick-prev {
+    font-size: 0;
+    border: none;
+    height: 51px;
+    width: 24px;
+    background-color: transparent;
+    background-image: url('../img/arrowLeft.png');
+    position: absolute;
+    z-index: 9;
+    top: 45%;
+    left: 10%;
+}
+button.slick-next {
+    font-size: 0;
+    border: none;
+    height: 51px;
+    width: 27px;
+    background-color: transparent;
+    background-image: url('../img/arrowRight.png');
+    position: absolute;
+    z-index: 9;
+    top: 45%;
+    right: 10%;
+}
+.slider-principal{
+    width: 100%;
+    overflow: hidden;
+}
+.slick-dots li {
+    display: inline-block;
+    padding-left: 10px;
+}
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+li.slick-active button {
+    background: #00bac6;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 570px;
+}
+.slicl-list {
+    width: 100%;
+}
+.slicl-initialized {
+    overflow: hidden;
+}
