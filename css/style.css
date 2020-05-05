@@ -207,3 +207,107 @@ h3{
     background-repeat: no-repeat;
     background-position: center;
 }
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #ffffff;
+}
+.col-4 {
+    float: left;
+    width: 24%;
+    text-align: center;
+}
+.col-4 img {
+    margin: 0 auto;
+    padding-top: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.col-4 img:hover {
+    margin-top: 10px!important;
+    position: relative;
+}
+.bloco-logos {
+    height: 200px;
+}
+.bloco-logos img {
+    margin-top: 50px;
+}
+.footer h3 {
+    text-align: left;
+}
+.footer {
+    background-image: url('../img/footer.png');
+    color: #fff;
+}
+.clock {
+    color: #898989;
+}
+.clock:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url('../img/clock.png');
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+}
+.footer p {
+    width: 200px;
+    color: #898989;
+    text-align: left;
+}
+.footer b {
+    text-transform: uppercase;
+}
+.SP:before {
+    content: '';
+    width: 17px;
+    height: 20px;
+    display: inline-block;
+    background-image: url('../img/localiza.png');
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+}
+.email:before {
+    content: '';
+    width: 17px;
+    height: 20px;
+    display: inline-block;
+    background-image: url('../img/email.png');
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+}
+.telefone:before {
+    content: '';
+    width: 17px;
+    height: 20px;
+    display: inline-block;
+    background-image: url('../img/telefone.png');
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+}
+.footer-2 {
+    background-image: url('../img/footer2.png');
+    color: #c1c1c1;
+    height: 90px;
+}
+.footer-2 p {
+    padding-top: 25px;
+}
+.rede-sociais2 ul li {
+    margin-left: 25px;
+    display: inline-block;
+    list-style: none;
+}
+.rede-sociais2 {
+    width: 25%;
+    float: right;
+    margin-top: -53px;
+}
